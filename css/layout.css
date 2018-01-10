@@ -1,0 +1,30 @@
+.page, .max-width { max-width: 980px; margin: 0 auto; }
+
+.page-container { padding-bottom: 24px; }
+
+.container, .page-container, .block-media__text-footer { overflow: auto; width: 100%; }
+
+/* .outlined { outline: 1px solid red; } */
+
+.flex-container { display: flex; flex-wrap: wrap;}
+
+.block { float: left; }
+
+.block-200, .block-400, .block-600, .block-800 { width: 100%; margin-bottom: 20px;}
+.block-200 { height: 200px; }
+.block-400 { height: 400px; }
+.block-600 { height: 600px; }
+.block-800 { height: 800px; }
+
+.column-left { width: 68%; padding-right: 16px; }
+.column-right { width: 33%; border-left: 1px solid #ccc; }
+
+.block-column__left { width: 37.5%; }
+.block-column__right { width: 25%; }
+
+/* .block-navigation__footer:nth-child(4n) { clear: left; } */
+
+.column-of-6 { width: 16.66%; }
+.column-of-4 { width: 25%; padding-right: 16px; }
+.column-of-3 { width: 33.33%; padding-right: 16px; }
+.column-of-2 { width: 50%; min-height: 70px; padding-right: 16px; }
