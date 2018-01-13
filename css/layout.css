@@ -25,6 +25,7 @@
 /* .block-navigation__footer:nth-child(4n) { clear: left; } */
 
 .column-of-6 { width: 16.66%; }
+.column-of-5 { width: 20%; }
 .column-of-4 { width: 25%; padding-right: 16px; }
 .column-of-3 { width: 33.33%; padding-right: 16px; }
 .column-of-2 { width: 50%; min-height: 70px; padding-right: 16px; }
