@@ -4,6 +4,15 @@
 
 .active { border-bottom: 4px solid #fff; }
 
+.footer-divider::before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid red;
+    height: 1px;
+    width: 40px;
+    margin-bottom: 6px;
+}
+
 .block-media::before {
     content: "";
     display: block;
@@ -40,7 +49,7 @@
 
 .block-media__text { width: 40%; padding-right: 16px; }
 .block-media__text-mini { width: 33.5%; padding-right: 16px; }
-.block-media__text-footer { margin-bottom: 8px; }
+.block-media__footer { margin-bottom: 8px; }
 
 .block-media__image { width: 60%; }
 .block-media__image-large { width: 66.5%; padding-right: 16px; }

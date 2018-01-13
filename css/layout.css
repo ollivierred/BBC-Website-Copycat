@@ -2,7 +2,7 @@
 
 .page-container { padding-bottom: 24px; }
 
-.container, .page-container, .block-media__text-footer { overflow: auto; width: 100%; }
+.container, .page-container, .block-media__footer { overflow: auto; width: 100%; }
 
 /* .outlined { outline: 1px solid red; } */
 
