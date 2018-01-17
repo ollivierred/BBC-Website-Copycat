@@ -2,7 +2,7 @@
 
 .page-container { padding-bottom: 24px; }
 
-.container, .page-container, .block-media__footer { overflow: auto; width: 100%; }
+.container, .page-container, .footer, figure { overflow: auto; width: 100%; }
 
 /* .outlined { outline: 1px solid red; } */
 
@@ -27,5 +27,5 @@
 .column-of-6 { width: 16.66%; }
 .column-of-5 { width: 20%; }
 .column-of-4 { width: 25%; padding-right: 16px; }
-.column-of-3 { width: 33.33%; padding-right: 16px; }
+.col_of_3 { float: left; width: 33.33%; padding-right: 16px; }
 .column-of-2 { width: 50%; min-height: 70px; padding-right: 16px; }

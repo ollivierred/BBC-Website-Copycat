@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 body {
@@ -25,3 +25,14 @@ a:hover, a:focus { color: #1167a8;}
 p { margin-top: 0; line-height: 18px; }
 
 img { display: block; max-width: 100%; }
+
+figure { margin: 0; }
+
+header,
+footer,
+nav,
+article,
+section,
+figure {
+    display: block;
+}

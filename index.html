@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     <meta charset="utf-8">
         <title>Technology - BBC News</title>
@@ -8,209 +8,195 @@
         <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <header>
-            <!--  Top Navigation  -->
-            <div class="nav nav__top-navigation">
-                <div class="container max-width">
-                    <ul class="block">
-                        <li>
-                            <div class="block logo"><img src="images/bbc-logo.png" alt="article link placeholder image"></div>
-                        </li>
+    <body class="page">
+        <h1>BBC News</h1>
+        <!--  Top Navigation  -->
+        <nav class="top-navigation">
+            <ul class="block">
+                <li>
+                    <div class="block logo"><img src="images/bbc-logo.png" alt="article link placeholder image"></div>
+                </li>
 
-                        <li class="user">
-                            <span class="user-icon"></span>
-                            <a href="#">Sign in</a>
-                        </li>
+                <li class="user">
+                    <span class="user-icon"></span>
+                    <a href="#">Sign in</a>
+                </li>
 
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Sport</a></li>
-                        <li><a href="#">Weather</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Earth</a></li>
-                        <li><a href="#">Travel</a></li>
-                        <li class="dropdown">
-                            <div tabindex="0" class="dropdown-button__top-navigation">
-                                <a href="#"><span class="down-arrow__top-navigation">More</span></a>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <form class="block search">
-                        <label for="search-field"></label>
-                        <input type="text" id="search-field" name="search-field" placeholder="Search">
-                        <button type="button" name="button"> <img src="images/search-icon.svg" alt="search button"></button>
-                    </form>
-
-                    <div class="container dropdown__block dropdown__top-navigation">
-                        <section class=" max-width">
-                            <div class="block dropdown__block-title"><h2>MORE</h2></div>
-                            <ul class="block dropdown__block-links">
-                                <li class="block column-of-5"><a href="#">Culture</a></li>
-                                <li class="block column-of-5"><a href="#">TV</a></li>
-                                <li class="block column-of-5"><a href="#">CBeebies</a></li>
-                                <li class="block column-of-5"><a href="#">Bitesize</a></li>
-                                <li class="block column-of-5"><a href="#">Make It Digital</a></li>
-
-                                <li class="block column-of-5"><a href="#">Local</a></li>
-                                <li class="block column-of-5"><a href="#">Autos</a></li>
-                                <li class="block column-of-5"><a href="#">Radio</a></li>
-                                <li class="block column-of-5"><a href="#">Food</a></li>
-                                <li class="block column-of-5"><a href="#">Music</a></li>
-
-                                <li class="block column-of-5"><a href="#">Taster</a></li>
-                                <li class="block column-of-5"><a href="#">Future</a></li>
-                                <li class="block column-of-5"><a href="#">CBBC</a></li>
-                                <li class="block column-of-5"><a href="#">iWonder</a></li>
-                                <li class="block column-of-5"><a href="#">Arts</a></li>
-
-                                <li class="block column-of-5"><a href="#">Nature</a></li>
-                                <li class="block column-of-5"><a href="#">Capital</a></li>
-                            </ul>
-                        </section>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Weather</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Earth</a></li>
+                <li><a href="#">Travel</a></li>
+                <li class="dropdown">
+                    <div tabindex="0" class="dropdown-button__top-navigation">
+                        <a href="#"><span class="down-arrow__top-navigation">More</span></a>
                     </div>
+                </li>
+            </ul>
 
-                </div>
+            <form class="block search">
+                <label for="search-field"></label>
+                <input type="text" id="search-field" name="search-field" placeholder="Search">
+                <button type="button" name="button"> <img src="images/search-icon.svg" alt="search button"></button>
+            </form>
+
+            <div class="container dropdown__block dropdown__top-navigation">
+                <section class=" max-width">
+                    <header class="block dropdown__block-title">
+                        <h2>MORE</h2>
+                    </header>
+
+                    <ul class="block dropdown__block-links">
+                        <li class="block column-of-5"><a href="#">Culture</a></li>
+                        <li class="block column-of-5"><a href="#">TV</a></li>
+                        <li class="block column-of-5"><a href="#">CBeebies</a></li>
+                        <li class="block column-of-5"><a href="#">Bitesize</a></li>
+                        <li class="block column-of-5"><a href="#">Make It Digital</a></li>
+
+                        <li class="block column-of-5"><a href="#">Local</a></li>
+                        <li class="block column-of-5"><a href="#">Autos</a></li>
+                        <li class="block column-of-5"><a href="#">Radio</a></li>
+                        <li class="block column-of-5"><a href="#">Food</a></li>
+                        <li class="block column-of-5"><a href="#">Music</a></li>
+
+                        <li class="block column-of-5"><a href="#">Taster</a></li>
+                        <li class="block column-of-5"><a href="#">Future</a></li>
+                        <li class="block column-of-5"><a href="#">CBBC</a></li>
+                        <li class="block column-of-5"><a href="#">iWonder</a></li>
+                        <li class="block column-of-5"><a href="#">Arts</a></li>
+
+                        <li class="block column-of-5"><a href="#">Nature</a></li>
+                        <li class="block column-of-5"><a href="#">Capital</a></li>
+                    </ul>
+                </section>
             </div>
-            <!-- Page banner -->
-            <div class="banner">
-                  <div class="max-width banner-logo">
-                    <a><img src="images/news-white.png" alt="article link placeholder image"></a>
-                  </div>
+        </nav>
+
+        <header class="page-header">
+            <div class="max-width banner-logo">
+                <a><img src="images/news-white.png" alt="article link placeholder image"></a>
             </div>
             <!--  Main navigation  -->
-            <div class="nav nav__main-navigation">
-                <div class="container max-width">
-                    <ul class="block">
-                        <li><a href="#"><span>Home</span></a></li>
-                        <li><a href="#"><span>Video</span></a></li>
-                        <li><a href="#"><span>World</span></a></li>
-                        <li><a href="#"><span>US & Canada</span></a></li>
-                        <li><a href="#"><span>UK</span></a></li>
-                        <li><a href="#"><span>Business</span></a></li>
-                        <li><a href="#" class="active"><span>Tech</span></a></li>
-                        <li><a href="#"><span>Science</span></a></li>
-                        <li><a href="#"><span>Stories</span></a></li>
-                        <li><a href="#"><span>Entertainment & Arts</span></a></li>
-                        <li><a href="#"><span>Health</span></a></li>
-                        <li class="dropdown">
-                            <div class="dropdown-button__main-navigation">
-                                <a href="#">
-                                    <span class="down-arrow__main-navigation">More</span>
-                                </a>
-                            </div>
+            <nav class="main-navigation">
 
-                            <div class="container dropdown__block dropdown__main-navigation">
-                                <div class="container max-width">
-                                    <ul class="block">
-                                        <li class="block column-of-4">
-                                            <a href="#" class="right-arrow__main-navigation"><span>In Pictures</span></a></li>
-                                        <li class="block column-of-4">
-                                            <a href="#" class="right-arrow__main-navigation"><span>Reality Check</span></a></li>
-                                        <li class="block column-of-4">
-                                            <a href="#" class="right-arrow__main-navigation"><span>World News TV</span></a></li>
-                                        <li class="block column-of-4">
-                                            <a href="#" class="right-arrow__main-navigation"><span>The Reporters</span></a></li>
-                                        <li class="block column-of-4">
-                                            <a href="#" class="right-arrow__main-navigation"><span>Paradise Papers</span></a></li>
-                                        <li class="block column-of-4">
-                                            <a href="#" class="right-arrow__main-navigation"><span>Special Reports</span></a></li>
-                                        <li class="block column-of-4">
-                                            <a href="#" class="right-arrow__main-navigation"><span>Explainers</span></a></li>
-                                        <li class="block column-of-4">
-                                            <a href="#" class="right-arrow__main-navigation"><span>Have Your Say</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
+                <ul class="block">
+                    <li><a href="#"><span>Home</span></a></li>
+                    <li><a href="#"><span>Video</span></a></li>
+                    <li><a href="#"><span>World</span></a></li>
+                    <li><a href="#"><span>US & Canada</span></a></li>
+                    <li><a href="#"><span>UK</span></a></li>
+                    <li><a href="#"><span>Business</span></a></li>
+                    <li><a href="#" class="active"><span>Tech</span></a></li>
+                    <li><a href="#"><span>Science</span></a></li>
+                    <li><a href="#"><span>Stories</span></a></li>
+                    <li><a href="#"><span>Entertainment & Arts</span></a></li>
+                    <li><a href="#"><span>Health</span></a></li>
+                    <li class="dropdown">
+                        <a href="#"><span class="down-arrow__main-navigation">More</span></a>
 
-                    </ul>
-                </div>
-
-
-            </div>
-        </header>
-        <!--  Page content  -->
-        <main role="main" class="outlined container page-container">
-            <section class="outlined container max-width">
-
-                <header class="outlined page-title">
-                    <h1>Technology</h1>
-                </header>
-                <!--  Left column of page: Top stories  -->
-                <div class="block column-left">
-                    <!--  Block: Top stories  -->
-                    <article class="outlined container">
-                        <header>
-                            <a href="#"><h2 class="block-media__title-primary">Apple: Chip flaw in all Macs and iPhones</h2></a>
-                        </header>
-                        <!--  Body of featured article  -->
-                        <div class="outlined container flex-container">
-                            <div class="outlined block block-media__text">
-                                <a href="#"><p>The tech giant has released some fixes and says there are "no known exploits" of the flaws.</p></a>
-                                <div class="outlined container block-media__footer">
-                                    <span class="block block-media__time-stamp">7 January 2018</span>
-                                    <a href="#"><span class="block block-media__link-tag">Stories</span></a>
-                                </div>
-
-                                <aside class="outlined block-media__list footer-divider">
-                                    <ul>
-                                        <li class="block-media__list-link"><a href="#">How chip hacks work</a></li>
-                                        <li class="block-media__list-link"><a href="#">Chip scare Q&A</a></li>
-                                        <li class="block-media__list-link"><a href="#">Rush to fix 'serious' chip flaws</a></li>
-                                        <li class="block-media__list-link"><a href="#">Is your device at risk?</a></li>
-                                    </ul>
-                                </aside>
-                            </div>
-                            <!--  Image of featured article  -->
-                            <div class="block block-media__image">
-                                <img src="https://placeholdit.co//i/410x230" alt="article link placeholder image">
+                        <div class="container dropdown__block dropdown__main-navigation">
+                            <div class="container max-width">
+                                <ul class="block">
+                                    <li class="block column-of-4">
+                                        <a href="#" class="right-arrow__main-navigation"><span>In Pictures</span></a></li>
+                                    <li class="block column-of-4">
+                                        <a href="#" class="right-arrow__main-navigation"><span>Reality Check</span></a></li>
+                                    <li class="block column-of-4">
+                                        <a href="#" class="right-arrow__main-navigation"><span>World News TV</span></a></li>
+                                    <li class="block column-of-4">
+                                        <a href="#" class="right-arrow__main-navigation"><span>The Reporters</span></a></li>
+                                    <li class="block column-of-4">
+                                        <a href="#" class="right-arrow__main-navigation"><span>Paradise Papers</span></a></li>
+                                    <li class="block column-of-4">
+                                        <a href="#" class="right-arrow__main-navigation"><span>Special Reports</span></a></li>
+                                    <li class="block column-of-4">
+                                        <a href="#" class="right-arrow__main-navigation"><span>Explainers</span></a></li>
+                                    <li class="block column-of-4">
+                                        <a href="#" class="right-arrow__main-navigation"><span>Have Your Say</span></a></li>
+                                </ul>
                             </div>
                         </div>
-                    </article>
+                    </li>
+                </ul>
 
-                    <!--  Block: More on tech (link to other tech articles)  -->
-                    <section class="outlined block-media">
-                        <h2>More on tech</h2>
+            </nav>
+        </header>
+
+        <h2 class="page__title">Technology</h2>
+
+        <!--  Content (begin)  -->
+        <main class="content">
+
+            <!--  Column (begin)  -->
+            <div class="column column_left">
+
+                    <!--  Block: Top stories  -->
+                <article class="outlined container flex-container">
+                    <header>
+                        <h3 class="title title_size_l">Apple: Chip flaw in all Macs and iPhones</h3>
+                    </header>
+                    <p>The tech giant has released some fixes and says there are "no known exploits" of the flaws.</p>
+                    <img src="https://placeholdit.co//i/410x230" alt="article link placeholder image">
+
+                    <div class="outlined container footer">
+                        <span class="block footer__time-stamp">7 January 2018</span>
+                        <span class="block footer__link-tag"><a href="#">Stories</a></span>
+                    </div>
+
+                    <ul class="media__footer footer_divider">
+                        <li class="footer__link"><a href="#">How chip hacks work</a></li>
+                        <li class="footer__link"><a href="#">Chip scare Q&A</a></li>
+                        <li class="footer__link"><a href="#">Rush to fix 'serious' chip flaws</a></li>
+                        <li class="footer__link"><a href="#">Is your device at risk?</a></li>
+                    </ul>
+                </article>
+                <hr>
+
+                <!--  Block: More on tech  -->
+                <section class="media">
+                        <h3>More on tech</h3>
                         <!--  First block  -->
-                        <ul class="outlined container flex-container">
-                            <li class="block block-media__column column-of-4">
+                        <article class="outlined container flex-container">
+                            <a href="" class="block block-media__column column-of-4">
                                 <img src="https://placeholdit.co//i/149x84" alt="article link placeholder image">
-                                <a href="#"><h3 class="column__title title-small">Train app could help disabled travellers</h3></a>
-                            </li>
+                                <h3 class="column__title title-small">Train app could help disabled travellers</h3>
+                            </a>
+                        </article>
 
-                            <li class="block block-media__column column-of-4">
-                                <img src="https://placeholdit.co//i/149x84" alt="article link placeholder image">
-                                <a href="#"><h3 class="column__title title-small">Hi-tech legs help amputee reporter snowboard</h3></a>
-                            </li>
+                        <article class="block block-media__column column-of-4">
+                            <img src="https://placeholdit.co//i/149x84" alt="article link placeholder image">
+                            <a href="#"><h3 class="column__title title-small">Hi-tech legs help amputee reporter snowboard</h3></a>
+                        </article>
 
-                            <li class="block block-media__column column-of-4">
-                                <img src="https://placeholdit.co//i/149x84" alt="article link placeholder image">
-                                <a href="#"><h3 class="column__title title-small">Google's translating earbuds tested</h3></a>
-                            </li>
+                        <article class="block block-media__column column-of-4">
+                            <img src="https://placeholdit.co//i/149x84" alt="article link placeholder image">
+                            <a href="#"><h3 class="column__title title-small">Google's translating earbuds tested</h3></a>
+                        </article>
 
-                            <li class="block block-media__column column-of-4">
-                                <img src="https://placeholdit.co//i/149x84" alt="article link placeholder image">
-                                <a href="#"><h3 class="column__title title-small">Inside Tencent's artificial intelligence lab</h3></a>
-                            </li>
-                        </ul>
+                        <article class="block block-media__column column-of-4">
+                            <img src="https://placeholdit.co//i/149x84" alt="article link placeholder image">
+                            <a href="#"><h3 class="column__title title-small">Inside Tencent's artificial intelligence lab</h3></a>
+                        </article>
+
+                        <hr>
+
                         <!--  Second block  -->
                         <ul class="outlined container flex-container block-media">
                             <li class="outlined block block-column__left padding__right">
-                                <div class="">
-                                    <div class="link-image">
-                                        <img src="https://placeholdit.co//i/270x151" alt="article link placeholder image">
-                                    </div>
-                                    <h3 class="block-media__titel-secondary">Meltdown and Spectre: How chip hacks work</h3>
-                                    <p>Here's why computer processors are vulnerable to hackers thanks to two recently discovered bugs.</p>
 
-                                    <div class="outlined block-media__footer">
-                                        <div class="block block-media__time-stamp">5 hours ago</div>
-                                        <div class="block block-media__link-tag"><a href="#">Stories</a></div>
-                                    </div>
+                                <div class="link-image">
+                                    <img src="https://placeholdit.co//i/270x151" alt="article link placeholder image">
+                                </div>
+                                <h3 class="block-media__titel-secondary">Meltdown and Spectre: How chip hacks work</h3>
+                                <p>Here's why computer processors are vulnerable to hackers thanks to two recently discovered bugs.</p>
+
+                                <div class="outlined footer">
+                                    <span class="block footer__time-stamp">5 hours ago</span>
+                                    <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
 
-                                <aside class="footer-divider">
+                                <aside class="footer__divider">
                                     <ul>
                                         <li><a href="#">Rush to fix 'serious' computer chip flaws</a></li>
                                     </ul>
@@ -218,103 +204,112 @@
                             </li>
 
                             <li class="outlined block block-column__left padding__right">
+
                                 <div class="link-image">
                                     <img src="https://placeholdit.co//i/270x151" alt="article link placeholder image">
                                 </div>
+
                                 <h3 class="block-media__titel-secondary">White noise video hit by copyright claims</h3>
                                 <p>A man says his original recording of white noise has faced five accusations of copyright infringement.</p>
 
-                                <div class="outlined block-media__footer">
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                <div class="outlined footer">
+                                    <span class="block footer__time-stamp">5 hours ago</span>
+                                    <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
 
-                                <ul>
-                                    <li><a href="#">Pepe the Frog creator in copyright fight</a></li>
-                                    <li><a href="#">Google offers YouTube copyright support</a></li>
-                                </ul>
+                                <aside class="footer__divider">
+                                    <ul>
+                                        <li class="footer__link"><a href="#">Pepe the Frog creator in copyright fight</a></li>
+                                        <li class="footer__link"><a href="#">Google offers YouTube copyright support</a></li>
+                                    </ul>
+                                </aside>
                             </li>
 
                             <li class="outlined block block-column__right padding__right">
                                 <div>
                                     <h3>Nintendo Switch boasts speedy US sales</h3>
-                                    <div class="outlined block-media__footer">
-                                      <div class="block block-media__time-stamp">5 hours ago</div>
-                                      <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                    <div class="outlined footer">
+                                      <span class="block footer__time-stamp">5 hours ago</span>
+                                      <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                     </div>
                                 </div>
 
                                 <div>
                                     <h3>Zuckerberg's resolution: 'Fix' Facebook</h3>
-                                    <div class="outlined block-media__footer">
-                                      <div class="block block-media__time-stamp">5 hours ago</div>
-                                      <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                    <div class="outlined footer">
+                                      <span class="block footer__time-stamp">5 hours ago</span>
+                                      <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                     </div>
                                 </div>
 
                                 <div>
                                     <h3>Identity database 'leak' worries Indians</h3>
-                                    <div class="outlined block-media__footer">
-                                      <div class="block block-media__time-stamp">5 hours ago</div>
-                                      <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                    <div class="outlined footer">
+                                      <span class="block footer__time-stamp">5 hours ago</span>
+                                      <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                     </div>
                                 </div>
                             </li>
                         </ul>
+
+                        <hr>
+
                         <!--  Third block  -->
                         <ul class="outlined container block-media">
                             <li class="block column-of-2">
                                 <h3>FCC chairman cancels attendance at CES</h3>
-                                <div class="outlined block-media__footer">
-                                    <div class="block block-media__time-stamp">4 January 2018</div>
-                                    <div class="block block-media__link-tag"><a href="#">Technology</a></div>
+                                <div class="outlined footer">
+                                    <span class="block footer__time-stamp">4 January 2018</span>
+                                    <span class="block footer__link-tag"><a href="#">Technology</a></span>
                                 </div>
                             </li>
 
                             <li class="block column-of-2">
                                 <h3>Psychedelic toasters fool image tech</h3>
-                                <div class="outlined block-media__footer">
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                <div class="outlined footer">
+                                    <span class="block footer__time-stamp">5 hours ago</span>
+                                    <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
                             </li>
 
                             <li class="block column-of-2">
                                 <h3>YouTuber 'ashamed' by his dead man video</h3>
-                                <div class="outlined block-media__footer">
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                <div class="outlined footer">
+                                    <span class="block footer__time-stamp">5 hours ago</span>
+                                    <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
                             </li>
 
                             <li class="block column-of-2">
                                 <h3>Rush to fix 'serious' computer chip flaws</h3>
-                                <div class="outlined block-media__footer">
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                <div class="outlined footer">
+                                    <span class="block footer__time-stamp">5 hours ago</span>
+                                    <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
                             </li>
 
                             <li class="block column-of-2">
                                 <h3>Children at 'significant' social media risk</h3>
-                                <div class="outlined block-media__footer">
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                <div class="outlined footer">
+                                    <span class="block footer__time-stamp">5 hours ago</span>
+                                    <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
                             </li>
 
                             <li class="block column-of-2">
                                 <h3>Dating website's 'scientific' match ad banned</h3>
-                                <div class="outlined block-media__footer">
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                <div class="outlined footer">
+                                    <span class="block footer__time-stamp">5 hours ago</span>
+                                    <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
                             </li>
                         </ul>
-                    </section>
 
-                    <!--  Also in the news  -->
-                    <section class="outlined container block-media">
+                    </section>
+                <hr>
+
+                <!--  Block: Also in the news  -->
+                <section class="media">
                         <h2>Also in the news</h2>
                         <div class="block column-of-2">
                             <div class="block column-of-2">
@@ -323,9 +318,9 @@
 
                             <div class="block column-of-2 padding__none">
                               <a href="#"><h3>Woman stunned by $284bn electricity bill</h3></a>
-                              <div class="outlined container block-media__footer">
-                                  <div class="block block-media__time-stamp">7 January 2018</div>
-                                  <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                              <div class="outlined container footer">
+                                  <span class="block footer__time-stamp">7 January 2018</span>
+                                  <span class="block footer__link-tag"><a href="#">Stories</a></span>
                               </div>
                             </div>
                         </div>
@@ -337,16 +332,17 @@
 
                             <div class="block column-of-2 padding__none">
                                 <a href="#"><h3>China skyscraper listed for online auction</h3></a>
-                                <div class="outlined container block-media__footer">
-                                    <div class="block block-media__time-stamp">7 January 2018</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                <div class="outlined container footer">
+                                    <span class="block footer__time-stamp">7 January 2018</span>
+                                    <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
                             </div>
                         </div>
                     </section>
+                <hr>
 
-                    <!--  Feature and Analysis  -->
-                    <section class="outlined block-media">
+                <!--  Block: Feature and Analysis  -->
+                <section class="media">
                         <h2>Features & Analysis</h2>
                         <ul class="container">
                             <li class="block column-of-3">
@@ -355,9 +351,9 @@
                                 <div class="outlined container column__body">
                                     <a href="#"><h3 class="column__title title-small">The Year of AI</h3></a>
                                     <p>How intelligent machines are taking over the world</p>
-                                    <div class="block-media__footer">
-                                        <div class="block block-media__time-stamp">5 hours ago</div>
-                                        <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                    <div class="footer">
+                                        <span class="block footer__time-stamp">5 hours ago</span>
+                                        <span class="block block-media__link-tag"><a href="#">Stories</a></span>
                                     </div>
                                 </div>
                             </li>
@@ -368,9 +364,9 @@
                                 <div class="outlined container column__body">
                                     <a href="#"><h3 class="column__title title-small">Five African tech trends</h3></a>
                                     <p>Delivery drones, pay-as-you-go off-grid power, and using blockchain to prevent land disputes.</p>
-                                    <div class="block-media__footer">
-                                        <div class="block block-media__time-stamp">5 hours ago</div>
-                                        <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                    <div class="footer">
+                                        <span class="block footer__time-stamp">5 hours ago</span>
+                                        <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                     </div>
                                 </div>
                             </li>
@@ -381,9 +377,9 @@
                                 <div class="outlined container column__body">
                                     <a href="#"><h3 class="column__title title-small">The man who can't face the internet</h3></a>
                                     <p>One man's quest to keep his image off the internet.</p>
-                                    <div class="block-media__footer">
-                                        <div class="block block-media__time-stamp">5 hours ago</div>
-                                        <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                    <div class="footer">
+                                        <span class="block footer__time-stamp">5 hours ago</span>
+                                        <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                     </div>
                                 </div>
                             </li>
@@ -396,9 +392,9 @@
                                 <div class="column__body">
                                     <a href="#"><h3 class="column__title title-small">Bitcoin in Africa</h3></a>
                                     <p>African millennials explain the attraction of risky cryptocurrency Bitcoin.</p>
-                                    <div class="block-media__footer">
-                                        <div class="block block-media__time-stamp">5 hours ago</div>
-                                        <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                    <div class="footer">
+                                        <span class="block footer__time-stamp">5 hours ago</span>
+                                        <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                     </div>
                                 </div>
                             </li>
@@ -409,9 +405,9 @@
                                 <div class="column__body">
                                     <a href="#"><h3 class="column__title title-small">Drone runways</h3></a>
                                     <p></p>
-                                    <div class="block-media__footer">
-                                        <div class="block block-media__time-stamp">5 hours ago</div>
-                                        <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                    <div class="footer">
+                                        <span class="block footer__time-stamp">5 hours ago</span>
+                                        <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                     </div>
                                 </div>
                             </li>
@@ -422,17 +418,18 @@
                                 <div class="column__body">
                                     <a href="#"><h3 class="column__title title-small">Messaging Battle</h3></a>
                                     <p></p>
-                                    <div class="block-media__footer">
-                                        <div class="block block-media__time-stamp">5 hours ago</div>
-                                        <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                    <div class="footer">
+                                        <span class="block footer__time-stamp">5 hours ago</span>
+                                        <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                     </div>
                                 </div>
                             </li>
                         </ul>
                     </section>
+                <hr>
 
-                    <!--  Our Experts  -->
-                    <section class="outlined block-media">
+                <!--  Block: Our Experts  -->
+                <section class="media">
                         <h2>Our Experts</h2>
                         <div class="">
                             <h3>Streaming fuels music industry boom</h3>
@@ -444,93 +441,89 @@
                             <p>Interrupting toddlers, intruding bats and a distracted boyfriend - the memes and virals of 2017.</p>
                         </div>
                     </section>
+                <hr>
 
-                    <!--  Click - The World of Technology  -->
-                    <section class="outlined block-media">
+                <!--  Block: Click - The World of Technology  -->
+                <section class="media">
                         <h2>Click - the world of technology</h2>
                         <ul class="container">
                               <li class="block column-of-3">
                                 <img src="https://placeholdit.co//i/204x115" alt="article link placeholder image">
                                 <a href="#"><h3 class="column__title">The Year of AI</h3></a>
-                                <div class="outlined container block-media__footer">
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                <div class="outlined container footer">
+                                    <span class="block footer__time-stamp">5 hours ago</span>
+                                    <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
                               </li>
 
                               <li class="block column-of-3">
                                 <img src="https://placeholdit.co//i/204x115" alt="article link placeholder image">
                                 <a href="#"><h3 class="column__title">Five African tech trends</h3></a>
-                                <div class="outlined container block-media__footer">
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                <div class="outlined container footer">
+                                    <span class="footer__time-stamp">5 hours ago</span>
+                                    <span class="footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
                               </li>
 
                               <li class="block column-of-3">
                                 <img src="https://placeholdit.co//i/204x115" alt="article link placeholder image">
                                 <a href="#"><h3 class="column__title">The man who can't face the internet</h3></a>
-                                <div class="outlined container block-media__footer">
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
+                                <div class="outlined container footer">
+                                    <span class="block footer__time-stamp">5 hours ago</span>
+                                    <span class="block footer__link-tag"><a href="#">Stories</a></span>
                                 </div>
                               </li>
                         </ul>
                     </section>
+                <hr>
 
-                    <!--  Special Reports  -->
-                    <section class="outlined container block-media">
-                      <h2>Special reports</h2>
-                      <div class="container">
-                          <div class="block block-media__text-mini">
-                            <a href="#"><h3 class="title-medium">Video games alert</h3></a>
-                              <p>From virtual reality to retro gaming</p>
-                              <div class="outlined container block-media__footer">
-                                  <div class="block block-media__time-stamp">5 hours ago</div>
-                                  <div class="block block-media__link-tag"><a href="#">Stories</a></div>
-                              </div>
-                          </div>
-                          <div class="block block-media__image-large">
-                              <img src="https://placeholdit.co//i/445x250" alt="article link placeholder image">
-                          </div>
-                      </div>
+                <!--  Block: Special Reports  -->
+                <section class="media">
+                    <h2>Special reports</h2>
 
-                      <ul class="container block-media__columns">
-                        <li class="block block-media__column column-of-3">
-                            <img src="https://placeholdit.co//i/235x132" alt="article link placeholder image">
-                            <div class="column__text">
-                                <a href="#"><h3 class="column__title title-small">Cyber-hacks</h3></a>
-                                <div>
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="block block-media__column column-of-3">
-                            <img src="https://placeholdit.co//i/235x132" alt="article link placeholder image">
-                            <div class="column__text">
-                                <a href="#"><h3 class="column__title title-small">#BBCTrending</h3></a>
-                                <div>
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="block block-media__column column-of-3">
-                            <img src="https://placeholdit.co//i/235x132" alt="article link placeholder image">
-                            <div class="column__text">
-                                <a href="#"><h3 class="column__title title-small">Tomorrow's Cities</h3></a>
-                                <div>
-                                    <div class="block block-media__time-stamp">5 hours ago</div>
-                                    <div class="block block-media__link-tag"><a href="#">Stories</a></div>
-                                </div>
-                            </div>
-                        </li>
-                      </ul>
+                    <section class="__item col_full">
+                        <a class="" href="#">
+                            <h3 class="title-medium">Video games alert</h3>
+                            <p>From virtual reality to retro gaming</p>
+                        </a>
+                        <p class="">
+                            <span class="footer__time-stamp">5 hours ago</span><span class="footer__link-tag"><a href="#">Stories</a></span>
+                        </p>
+
+                        <a class="" href="#">
+                            <img src="https://placeholdit.co//i/445x250" alt="article link placeholder image">
+                        </a>
                     </section>
 
-                    <!--  BBC Future  -->
-                    <section class="outlined block-media">
+                    <section class="__item col_of_3">
+                        <a href="#">
+                            <img src="https://placeholdit.co//i/235x132" alt="article link placeholder image">
+                            <h3 class="column__title title_size_s">Cyber-hacks</h3>
+                            <p><span class="__time-stamp">17 February 2016</span></p>
+                        </a>
+                    </section>
+
+                    <section class="__item col_of_3">
+                        <a href="">
+                            <img src="https://placeholdit.co//i/235x132" alt="article link placeholder image">
+                            <h3 class="column__title title_size_s">#BBCTrending</h3>
+                            <p><span class="__time-stamp">10 December 2013</span></p>
+                        </a>
+                    </section>
+
+                    <section class="__item col_of_3">
+                        <a href="#">
+                            <img src="https://placeholdit.co//i/235x132" alt="article link placeholder image">
+                            <h3 class="column__title title_size_s">Tomorrow's Cities</h3>
+                            <p><span class="__time-stamp">17 January 2017</span></p>
+                        </a>
+                    </section>
+
+                </section>
+                <hr>
+
+                <!--  Block: BBC Future  -->
+                <section class="media">
                       <h2>BBC Future</h2>
                       <div class="container flex-container">
                           <div class="block column-of-2">
@@ -547,36 +540,59 @@
                       </div>
 
                     </section>
-                </div><!--  End of left block Div  -->
-                <!--  Right column of page: Watch/Listen  -->
-                <aside class="outlined block column-right sidebar">
-                    <h2>Watch/Listen</h2>
-                    <ul>
-                        <li>
-                            <div class="block sidebar__link-image"><img src="https://placeholdit.co//i/130x73" alt="article link placeholder image"></div>
-                            <div class="block sidebar__link-title">
-                                <a href="#"><h3>I got a tattoo of grandma's voice</h3></a>
-                                <div class="block sidebar__time-stamp">5 hours ago</div>
-                                <div class="block sidebar__link-tag"><a href="#">Stories</a></div>
-                            </div>
-                        </li>
-                    </ul>
-                </aside>
+                <hr>
 
-            </section><!--  End of Max-width Div  -->
-            <!--  Block: Podcasts  -->
-            <div class="max-width">
-                <section class="outlined block-media block-400">
-                    <header>
-                        <h2>Podcasts</h2>
-                    </header>
-                </section>
             </div>
+            <!--  Column: left (end)  -->
+
+            <!--  Column: right (begin)  -->
+            <aside class="column column_right">
+                <header><h2>Watch/Listen</h2></header>
+
+                <section>
+                    <a class="" href="#">
+                        <h3>I got a tattoo of grandma's voice</h3>
+                        <div class="">
+                            <img src="https://placeholdit.co//i/130x73" alt="article link placeholder image">
+                        </div>
+                    </a>
+
+                    <div class="">
+                        <span class="footer__time-stamp">7 January 2018</span>
+                        <span class="footer__link-tag"><a href="#">Stories</a></span>
+                    </div>
+                </section>
+
+                <section>
+                    <a class="" href="#">
+                        <h3>Car emojis seek to replace hand gestures</h3>
+                        <div class="">
+                            <img src="https://placeholdit.co//i/130x73" alt="article link placeholder image">
+                        </div>
+                    </a>
+
+                    <div class="">
+                        <span class="footer__time-stamp">13 January 2018</span>
+                        <span class="footer__link-tag"><a href="#">Technology</a></span>
+                    </div>
+                </section>
+
+            </aside>
+            <!--  Column: right (end)  -->
+
+            <!--  Block: Podcasts  -->
+            <section class="block-media block-400">
+                <header>
+                    <h2>Podcasts</h2>
+                </header>
+            </section>
+
             <!--  Block: More from BBC News  -->
-            <div class="max-width">
-                <section class="outlined block-media">
-                  <h2>More from BBC News</h2>
-                  <ul class="container flex-container">
+            <section class="block-media">
+                <header>
+                    <h2>More from BBC News</h2>
+                </header>
+                <ul class="container flex-container">
                     <li class="block column-of-4">
                       <div class=""><img src="https://placeholdit.co//i/235x132" alt="article link placeholder image"></div>
                       <div class="block__column-body">
@@ -640,11 +656,13 @@
                           <a href="#"><h3 class="column__title">Sam Gyimah is new universities minister</h3></a>
                       </div>
                     </li>
-                  </ul>
-                </section>
-            </div>
-        </main><!--  End of Main section  -->
-        <!-- Footer Block  -->
+                </ul>
+            </section>
+
+        </main>
+        <!--  Content (end)  -->
+
+        <!-- Block: Footer  -->
         <footer class="outlined block-footer">
             <div class="outlined block-footer__news-services">
                 <section class="outlined max-width">
